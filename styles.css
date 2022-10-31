@@ -16,9 +16,12 @@ h3, p {
 
 .content {
     margin-top: 120px;
-    padding: 30px 30% 50px;
+    /* padding: 30%, 30%, 30%; */
     border: 1px solid rgb(232, 232, 232);
     border-radius: 12px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 img {
@@ -26,7 +29,12 @@ img {
 }
 
 input {
-    padding: 20px, 10px, 0px !important;
+    width: 400px;
+    height: 48px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
     margin: 10px;
 }
 
@@ -43,6 +51,13 @@ button {
     border-radius: 25px;   
 }
 
+button:first-of-type {
+    background-color: #142c8e !important;
+}
+
+button:first-of-type:hover {
+    background-color: #102fa9 !important;}
+
 .or {
     height: 15px;
     font-size: 83.34%;
@@ -57,3 +72,27 @@ button {
     font-size: 12px;
     padding-top: 60px;
 }
+
+.cookies {
+    padding: 24px;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #012169;
+    z-index: 1051;
+    color: white;   
+}
+
+/* 
+.cookies-button {
+    display: inline-block;
+    padding: 6px 24px;
+    color: #0070ba;
+    border-radius: 18px;
+    font-size: 13px;
+    line-height: 1.6;
+    text-decoration: none;
+    cursor: pointer;
+    bottom: 0;
+} */
