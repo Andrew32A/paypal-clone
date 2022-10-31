@@ -50,3 +50,10 @@ button {
     position: relative;
     color: #6c7378;
 }
+
+.language {
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 60px;
+}
